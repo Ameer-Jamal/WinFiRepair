@@ -1,0 +1,11 @@
+# Build artifacts and logs
+dist/
+*.exe
+*.log
+
+# Editor settings (optional)
+.vscode/
+
+# Windows junk
+Thumbs.db
+Desktop.ini
