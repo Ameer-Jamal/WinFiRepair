@@ -1,5 +1,11 @@
 ﻿# Entry point: loads logic, WPF UI, wires events. Run elevated.
 
+# Relaunch as admin if not already
+if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Start-Process powershell "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
+    exit
+}
+
 $ErrorActionPreference = 'Stop'
 
 Add-Type -AssemblyName PresentationCore, PresentationFramework, WindowsBase

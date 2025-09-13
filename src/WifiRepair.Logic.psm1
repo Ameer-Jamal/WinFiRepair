@@ -1,7 +1,7 @@
 ﻿<#
 MIT License
 
-Core logic for WinFiRepair. No UI code.
+Core logic for WinFiRepair.
 #>
 
 Import-Module NetAdapter -ErrorAction SilentlyContinue
