@@ -1,6 +1,7 @@
 # WinFiRepair
 
 A reversible, GUI-driven tool to diagnose and repair Windows Wi-Fi connectivity without memorizing commands. Safe defaults, one-click actions, and automatic backups enable recovery if changes do not help.
+<img width="784" height="488" alt="image" src="https://github.com/user-attachments/assets/bf967169-64e8-47f9-a880-9b064a0822f4" />
 
 ## Features
 
