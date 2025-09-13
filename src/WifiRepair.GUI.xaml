@@ -3,7 +3,8 @@
         Title="WinFiRepair - A.Jamal" Height="500" Width="800"
         WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize"
         Background="{DynamicResource App.Background}"
-        Foreground="{DynamicResource App.Text}">
+        Foreground="{DynamicResource App.Text}"
+        Icon="WifiRepair.ico">
 
   <Window.Resources>
     <!-- Dark palette -->
